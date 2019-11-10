@@ -1,4 +1,4 @@
-package app.android.frisco.bdapp.clases.Usuarios;
+package app.android.ggave.bdapp.clases.Usuarios;
 
 import com.orm.SugarRecord;
 

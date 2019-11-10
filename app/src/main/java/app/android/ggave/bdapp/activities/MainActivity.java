@@ -1,4 +1,4 @@
-package app.android.frisco.bdapp.activities;
+package app.android.ggave.bdapp.activities;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -11,7 +11,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import app.android.frisco.bdapp.R;
-import app.android.frisco.bdapp.clases.Usuarios.UserRepository;
+import app.android.ggave.bdapp.clases.Usuarios.UserRepository;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         String usu=usuario.getText().toString();
         String pass=password.getText().toString();
 
-        for(int i=0; i<UserRepository.list().size();i++){
+        for(int i = 0; i< UserRepository.list().size(); i++){
             if(usu.equals(UserRepository.read(i).getUsuario()) && pass.equals(UserRepository.read(i).getPassword())){
                 String fullname=UserRepository.read(i).getFullname();
                 // Guardar el estado de login en la SharedPreferences

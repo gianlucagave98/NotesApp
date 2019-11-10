@@ -1,4 +1,4 @@
-package app.android.frisco.bdapp.clases.Notas;
+package app.android.ggave.bdapp.clases.Notas;
 
 import com.orm.dsl.Table;
 

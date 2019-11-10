@@ -1,22 +1,16 @@
-package app.android.frisco.bdapp.activities;
+package app.android.ggave.bdapp.activities;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
-import java.util.List;
-
 import app.android.frisco.bdapp.R;
-import app.android.frisco.bdapp.clases.Notas.Note;
-import app.android.frisco.bdapp.clases.Notas.NoteAdapter;
-import app.android.frisco.bdapp.clases.Notas.NoteRepository;
-import app.android.frisco.bdapp.clases.Usuarios.User;
-import app.android.frisco.bdapp.clases.Usuarios.UserRepository;
+import app.android.ggave.bdapp.clases.Usuarios.User;
+import app.android.ggave.bdapp.clases.Usuarios.UserRepository;
 
 public class WelcomeActivity extends AppCompatActivity {
 

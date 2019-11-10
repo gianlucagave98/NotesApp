@@ -1,4 +1,4 @@
-package app.android.frisco.bdapp.activities;
+package app.android.ggave.bdapp.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import app.android.frisco.bdapp.R;
-import app.android.frisco.bdapp.clases.Notas.NoteRepository;
+import app.android.ggave.bdapp.clases.Notas.NoteRepository;
 
 public class RegNotasActivity extends AppCompatActivity {
 

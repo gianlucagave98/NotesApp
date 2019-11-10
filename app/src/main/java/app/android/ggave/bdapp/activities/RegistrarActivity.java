@@ -1,4 +1,4 @@
-package app.android.frisco.bdapp.activities;
+package app.android.ggave.bdapp.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import app.android.frisco.bdapp.R;
-import app.android.frisco.bdapp.clases.Usuarios.UserRepository;
+import app.android.ggave.bdapp.clases.Usuarios.UserRepository;
 
 public class RegistrarActivity extends AppCompatActivity {
 
